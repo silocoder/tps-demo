@@ -1,7 +1,5 @@
 extends MultiplayerSynchronizer
-#
-#
-#
+
 const CAMERA_CONTROLLER_ROTATION_SPEED := 3.0
 const CAMERA_MOUSE_ROTATION_SPEED := 0.001
 # A minimum angle lower than or equal to -90 breaks movement if the player is looking upward.
