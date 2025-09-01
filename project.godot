@@ -31,6 +31,8 @@ window/size/fullscreen=true
 [editor]
 
 import/use_multiple_threads=false
+version_control/plugin_name="GitPlugin"
+version_control/autoload_on_startup=true
 
 [filesystem]
 

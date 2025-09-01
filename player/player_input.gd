@@ -1,11 +1,15 @@
 extends MultiplayerSynchronizer
-
+#
+#
+#
 const CAMERA_CONTROLLER_ROTATION_SPEED := 3.0
 const CAMERA_MOUSE_ROTATION_SPEED := 0.001
 # A minimum angle lower than or equal to -90 breaks movement if the player is looking upward.
 const CAMERA_X_ROT_MIN := deg_to_rad(-89.9)
 const CAMERA_X_ROT_MAX := deg_to_rad(70)
-
+#
+#
+#
 # Release aiming if the mouse/gamepad button was held for longer than 0.4 seconds.
 # This works well for trackpads and is more accessible by not making long presses a requirement.
 # If the aiming button was held for less than 0.4 seconds, keep aiming until the aiming button is pressed again.
