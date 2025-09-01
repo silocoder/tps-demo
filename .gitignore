@@ -1,5 +1,6 @@
 # Godot 4+ specific ignores
 .godot/
+addons/godot-git-plugin
 
 # Godot-specific ignores
 .import/
@@ -21,6 +22,4 @@ mono_crash.*.json
 
 # Blender versioning
 *.blend[0-9]*
-/addons/rsyncback
-/addons/GDBeautifier
-/addons/quick_plugin_mgr
+
