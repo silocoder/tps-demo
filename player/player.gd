@@ -1,6 +1,6 @@
 class_name Player
 extends CharacterBody3D
-
+###
 enum ANIMATIONS {JUMP_UP, JUMP_DOWN, STRAFE, WALK}
 
 const DIRECTION_INTERPOLATE_SPEED = 1
