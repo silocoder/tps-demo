@@ -1,5 +1,5 @@
 extends Node
-
+#
 func _ready():
 	multiplayer.server_relay = false
 	if DisplayServer.get_name() == "headless":
